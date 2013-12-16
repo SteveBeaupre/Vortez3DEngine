@@ -1,0 +1,38 @@
+EXPORTS
+			ReadBit					@1
+			WriteBit				@2
+
+			IntToBool				@3
+			BoolToInt				@4
+
+			DWORDToLARGE_INTEGER	@5  
+			DWORDToUI64				@6
+
+			DWORDX2ToUI64			@7
+			UI64ToLARGE_INTEGER		@8
+			LARGE_INTEGERToUI64		@9
+
+			SectorsToBytes			@10
+			BytesToSectors			@11
+
+			LODWORD					@12
+			HIDWORD					@13
+
+			NewBitArray				@14
+			NewCRC32				@15
+			NewDriveIO				@16
+			NewFileIO				@17
+			NewTxtFileIO			@18
+			NewFileManager			@19
+			NewFolderManager		@20
+			NewDriveManager			@21
+			NewEncryptor			@22
+			NewRNG					@23
+			NewRawBuffer			@24
+			NewThread				@25
+			NewTimer				@26
+			NewTimer64				@27
+			NewGameTimer			@28
+			NewCycleTimer			@29
+			NewWindow				@30
+
